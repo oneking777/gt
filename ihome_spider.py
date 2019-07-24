@@ -8,21 +8,9 @@ headers = {
     ome/74.0.3729.108 Safari/537.36"
 }
 
-
-params = {
-    "wd": ""
-}
-
-
-# 发送请求
-resp = requests.get("https://www.baidu.com/s?wd={}".format("python"), headers=headers)
-
-
-print(resp.status_code, resp.request.url)
-
-
-
-
+while True:
+    resp = requests.get("http://47.93.5.166:5000", headers=headers)
+    print(resp.status_code)
 
 
 
