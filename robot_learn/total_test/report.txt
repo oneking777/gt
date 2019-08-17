@@ -1,0 +1,22 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file '03.py'
+ outputting to '03_v2.py'
+--------------------------------------------------------------------------------
+
+86:18: INFO: Renamed 'tf.train.string_input_producer' to 'tf.compat.v1.train.string_input_producer'
+89:13: INFO: Renamed 'tf.TextLineReader' to 'tf.compat.v1.TextLineReader'
+97:21: INFO: Added keywords to args of function 'tf.decode_csv'
+97:21: INFO: Renamed 'tf.decode_csv' to 'tf.io.decode_csv'
+100:33: INFO: Renamed 'tf.train.batch' to 'tf.compat.v1.train.batch'
+120:18: INFO: Renamed 'tf.train.start_queue_runners' to 'tf.compat.v1.train.start_queue_runners'
+--------------------------------------------------------------------------------
+
